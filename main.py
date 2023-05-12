@@ -12,7 +12,7 @@ layout = [
     [sg.Text('Odgadywane slowo: ', key='-WORD-')],
     [sg.Input(size=(25, 1), key='-INPUT-', disabled=True), sg.Button('Sprawdz', key='-SEND-', size=(25, 1), disabled=True)],
     [sg.Text('', key='-INFO-')],
-    [sg.Frame('Dominik Szymański, 22222', buttons_bottom, size=(400, 60), vertical_alignment='center', element_justification='center')]
+    [sg.Frame('Dominik Szymański, 26071', buttons_bottom, size=(400, 60), vertical_alignment='center', element_justification='center')]
 ]
 
 window = sg.Window('Window Title', layout)
